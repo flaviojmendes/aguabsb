@@ -1,0 +1,36 @@
+2017-03-28 11:52:44 [578348b9] info    [native] Loading collector peer list from /app/dynatrace/agent/conf/collectorlist.Java_XJet
+2017-03-28 11:52:44 [578348b9] info    [native] 0 entries loaded
+2017-03-28 11:52:44 [578348b9] info    [native] POSIX clock type CLOCK_MONOTONIC detected
+2017-03-28 11:52:44 [578348b9] info    [native] High-resolution POSIX timer detected.
+2017-03-28 11:52:44 [578348b9] info    [native] ------------------------------------------------------------------------------------
+2017-03-28 11:52:44 [578348b9] info    [native] Dynatrace Agent for Java Copyright (C) 2004-2016 Dynatrace, http://www.dynatrace.com
+2017-03-28 11:52:44 [578348b9] info    [native] ------------------------------------------------------------------------------------
+2017-03-28 11:52:44 [578348b9] info    [native] Version ..................... 6.5.0.1289, build date Sep 16 2016 08:47:21, svn rev. 654174
+2017-03-28 11:52:44 [578348b9] info    [native] Command line is java -agentpath:/app/dynatrace/agent/lib64/libdtagent.so=name=Java_XJet,server=dtserver.dojoapm_default:9998 -Djava.security.egd=file:/dev/./urandom -jar /app/build/libs/xjet-1.0-SNAPSHOT.jar 
+2017-03-28 11:52:44 [578348b9] info    [native] Build platform .............. Linux x86 64-bit
+2017-03-28 11:52:44 [578348b9] info    [native] Platform .................... Linux 4.4.0-66-generic x86_64
+2017-03-28 11:52:44 [578348b9] info    [native] System startup time ......... unknown
+2017-03-28 11:52:44 [578348b9] info    [native] User name ................... root
+2017-03-28 11:52:44 [578348b9] info    [native] Bootstrap version ........... 6.5.0.1289
+2017-03-28 11:52:44 [578348b9] info    [native] Log level console ........... info
+2017-03-28 11:52:44 [578348b9] info    [native] Log level file .............. info
+2017-03-28 11:52:44 [578348b9] info    [native] Log file .................... /app/dynatrace/log/dt_Java_XJet_1(116).0.log
+2017-03-28 11:52:44 [578348b9] info    [native] Agent host .................. cc4b69f4c75d
+2017-03-28 11:52:44 [578348b9] info    [native] Agent library ............... /app/dynatrace/agent/downloads/6.5.0.1289/native/linux-x86-64/libdtagentcore.so
+2017-03-28 11:52:44 [578348b9] info    [native] Options string .............. name=Java_XJet,server=dtserver.dojoapm_default:9998
+2017-03-28 11:52:44 [578348b9] info    [native] Agent name .................. Java_XJet
+2017-03-28 11:52:44 [578348b9] info    [native] Server/Collector ............ dtserver.dojoapm_default:9998
+2017-03-28 11:52:44 [578348b9] info    [native] Interface type .............. JVMTI
+2017-03-28 11:52:44 [578348b9] info    [native] Process ID .................. 1
+2017-03-28 11:52:44 [578348b9] info    [native] JVM name .................... Java HotSpot(TM) 64-Bit Server VM 25.121-b13
+2017-03-28 11:52:44 [578348b9] info    [native] JVM vendor .................. Oracle Corporation
+2017-03-28 11:52:44 [578348b9] info    [native] JVM info .................... mixed mode, sharing
+2017-03-28 11:52:44 [578348b9] info    [native] Trying to connect to Server/Collector for up to 0 seconds
+2017-03-28 11:53:04 [578348b9] info    [native] Could not retrieve LoadBalancing configuration from dtserver.dojoapm_default:9998 (670003): Temporary failure in name resolution
+2017-03-28 11:53:25 [578348b9] severe  [native] Exception while connecting to Server/Collector dtserver.dojoapm_default, info:<connect()/apr_sockaddr_info_get(), 670003, Temporary failure in name resolution>
+2017-03-28 11:53:25 [578348b9] warning [native] Unable to register with Server/Collector dtserver.dojoapm_default:9998, CONTINUING WITHOUT INSTRUMENTATION.
+2017-03-28 11:53:25 [578348b9] info    [native] Platform .................... Linux 4.4.0-66-generic, amd64
+2017-03-28 11:53:45 [578348b9] info    [native] Shutting down Controller
+2017-03-28 11:53:45 [578348b9] info    [native] Shutting down EventSender
+2017-03-28 11:53:55 [578348b9] info    [native] Shutting down Instrumentor
+2017-03-28 11:53:55 [578348b9] info    [native] Shutdown successful

@@ -1,0 +1,50 @@
+2017-03-27 19:57:03 [922be82c] info    [native] Loading collector peer list from /app/dynatrace/agent/conf/collectorlist.Java_XJet
+2017-03-27 19:57:03 [922be82c] info    [native] 0 entries loaded
+2017-03-27 19:57:03 [922be82c] info    [native] POSIX clock type CLOCK_MONOTONIC detected
+2017-03-27 19:57:04 [922be82c] info    [native] High-resolution POSIX timer detected.
+2017-03-27 19:57:04 [922be82c] info    [native] ------------------------------------------------------------------------------------
+2017-03-27 19:57:04 [922be82c] info    [native] Dynatrace Agent for Java Copyright (C) 2004-2016 Dynatrace, http://www.dynatrace.com
+2017-03-27 19:57:04 [922be82c] info    [native] ------------------------------------------------------------------------------------
+2017-03-27 19:57:04 [922be82c] info    [native] Version ..................... 6.5.0.1289, build date Sep 16 2016 08:47:21, svn rev. 654174
+2017-03-27 19:57:04 [922be82c] info    [native] Command line is java -agentpath:/app/dynatrace/agent/lib64/libdtagent.so=name=Java_XJet,server=dtserver:9998 -Djava.security.egd=file:/dev/./urandom -jar /app/build/libs/xjet-1.0-SNAPSHOT.jar 
+2017-03-27 19:57:04 [922be82c] info    [native] Build platform .............. Linux x86 64-bit
+2017-03-27 19:57:04 [922be82c] info    [native] Platform .................... Linux 4.4.0-66-generic x86_64
+2017-03-27 19:57:04 [922be82c] info    [native] System startup time ......... unknown
+2017-03-27 19:57:04 [922be82c] info    [native] User name ................... root
+2017-03-27 19:57:04 [922be82c] info    [native] Bootstrap version ........... 6.5.0.1289
+2017-03-27 19:57:04 [922be82c] info    [native] Log level console ........... info
+2017-03-27 19:57:04 [922be82c] info    [native] Log level file .............. info
+2017-03-27 19:57:04 [922be82c] info    [native] Log file .................... /app/dynatrace/log/dt_Java_XJet_1(12).0.log
+2017-03-27 19:57:04 [922be82c] info    [native] Agent host .................. fc76f9054cff
+2017-03-27 19:57:04 [922be82c] info    [native] Agent library ............... /app/dynatrace/agent/downloads/6.5.0.1289/native/linux-x86-64/libdtagentcore.so
+2017-03-27 19:57:04 [922be82c] info    [native] Options string .............. name=Java_XJet,server=dtserver:9998
+2017-03-27 19:57:04 [922be82c] info    [native] Agent name .................. Java_XJet
+2017-03-27 19:57:04 [922be82c] info    [native] Server/Collector ............ dtserver:9998
+2017-03-27 19:57:04 [922be82c] info    [native] Interface type .............. JVMTI
+2017-03-27 19:57:04 [922be82c] info    [native] Process ID .................. 1
+2017-03-27 19:57:04 [922be82c] info    [native] JVM name .................... Java HotSpot(TM) 64-Bit Server VM 25.121-b13
+2017-03-27 19:57:04 [922be82c] info    [native] JVM vendor .................. Oracle Corporation
+2017-03-27 19:57:04 [922be82c] info    [native] JVM info .................... mixed mode, sharing
+2017-03-27 19:57:04 [922be82c] info    [native] Trying to connect to Server/Collector for up to 19 seconds
+2017-03-27 19:57:04 [922be82c] info    [native] Reading LoadBalancing configuration from dtserver:9998
+2017-03-27 19:57:04 [922be82c] info    [native] Storing collector peer list (0 entries) to /app/dynatrace/agent/conf/collectorlist.Java_XJet
+2017-03-27 19:57:04 [922be82c] info    [native] Server/Collector ............ dtserver:9998
+2017-03-27 19:57:04 [922be82c] info    [native] Instrumentation channel connected successfully
+2017-03-27 19:57:04 [922be82c] info    [native] Received instrumentation blacklist (1273 classes, 81 KiB)
+2017-03-27 19:57:04 [922be82c] info    [native] Connected to Server/Collector dtserver:9998
+2017-03-27 19:57:04 [922be82c] info    [native] Agent classes defined successfully
+2017-03-27 19:57:04 [922be82c] info    [native] Platform .................... Linux 4.4.0-66-generic, amd64
+2017-03-27 19:57:04 [922be82c] info    [java  ] Java Agent Version .......... 6.5.0.1289, Agent15
+2017-03-27 19:57:04 [5abfe82c] info    [native] Control channel connected successfully
+2017-03-27 19:57:04 [5abfe82c] info    [native] Transaction sampling started.
+2017-03-27 19:57:04 [5abfe82c] info    [native] Process metrics pattern ..... not set
+2017-03-27 19:57:04 [5abfe82c] info    [native] Agent ID .................... fccf4ec9
+2017-03-27 19:57:04 [5abfe82c] info    [native] Process ID .................. 1
+2017-03-27 19:57:04 [5abfe82c] info    [native] Recovery .................... enabled
+2017-03-27 19:57:04 [5abfe82c] info    [native] Hot Sensor Placement ........ available
+2017-03-27 19:57:04 [5abfe82c] info    [native] Hypervisor .................. unknown
+2017-03-27 19:57:04 [922be82c] info    [native] Eventsender channel connected successfully
+2017-03-27 19:57:04 [922be82c] info    [native] Shutting down Controller
+2017-03-27 19:57:04 [922be82c] info    [native] Shutting down EventSender
+2017-03-27 19:57:04 [922be82c] info    [native] Shutting down Instrumentor
+2017-03-27 19:57:04 [922be82c] info    [native] Shutdown successful

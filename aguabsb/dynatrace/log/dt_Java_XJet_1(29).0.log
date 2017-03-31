@@ -1,0 +1,55 @@
+2017-03-27 20:06:50 [51585882] info    [native] Loading collector peer list from /app/dynatrace/agent/conf/collectorlist.Java_XJet
+2017-03-27 20:06:50 [51585882] info    [native] 0 entries loaded
+2017-03-27 20:06:50 [51585882] info    [native] POSIX clock type CLOCK_MONOTONIC detected
+2017-03-27 20:06:50 [51585882] info    [native] High-resolution POSIX timer detected.
+2017-03-27 20:06:50 [51585882] info    [native] ------------------------------------------------------------------------------------
+2017-03-27 20:06:50 [51585882] info    [native] Dynatrace Agent for Java Copyright (C) 2004-2016 Dynatrace, http://www.dynatrace.com
+2017-03-27 20:06:50 [51585882] info    [native] ------------------------------------------------------------------------------------
+2017-03-27 20:06:50 [51585882] info    [native] Version ..................... 6.5.0.1289, build date Sep 16 2016 08:47:21, svn rev. 654174
+2017-03-27 20:06:50 [51585882] info    [native] Command line is java -agentpath:/app/dynatrace/agent/lib64/libdtagent.so=name=Java_XJet,server=dtserver:9998 -Djava.security.egd=file:/dev/./urandom -jar /app/build/libs/xjet-1.0-SNAPSHOT.jar 
+2017-03-27 20:06:50 [51585882] info    [native] Build platform .............. Linux x86 64-bit
+2017-03-27 20:06:50 [51585882] info    [native] Platform .................... Linux 4.4.0-66-generic x86_64
+2017-03-27 20:06:50 [51585882] info    [native] System startup time ......... unknown
+2017-03-27 20:06:50 [51585882] info    [native] User name ................... root
+2017-03-27 20:06:50 [51585882] info    [native] Bootstrap version ........... 6.5.0.1289
+2017-03-27 20:06:50 [51585882] info    [native] Log level console ........... info
+2017-03-27 20:06:50 [51585882] info    [native] Log level file .............. info
+2017-03-27 20:06:50 [51585882] info    [native] Log file .................... /app/dynatrace/log/dt_Java_XJet_1(29).0.log
+2017-03-27 20:06:50 [51585882] info    [native] Agent host .................. fc76f9054cff
+2017-03-27 20:06:50 [51585882] info    [native] Agent library ............... /app/dynatrace/agent/downloads/6.5.0.1289/native/linux-x86-64/libdtagentcore.so
+2017-03-27 20:06:50 [51585882] info    [native] Options string .............. name=Java_XJet,server=dtserver:9998
+2017-03-27 20:06:50 [51585882] info    [native] Agent name .................. Java_XJet
+2017-03-27 20:06:50 [51585882] info    [native] Server/Collector ............ dtserver:9998
+2017-03-27 20:06:50 [51585882] info    [native] Interface type .............. JVMTI
+2017-03-27 20:06:50 [51585882] info    [native] Process ID .................. 1
+2017-03-27 20:06:50 [51585882] info    [native] JVM name .................... Java HotSpot(TM) 64-Bit Server VM 25.121-b13
+2017-03-27 20:06:50 [51585882] info    [native] JVM vendor .................. Oracle Corporation
+2017-03-27 20:06:50 [51585882] info    [native] JVM info .................... mixed mode, sharing
+2017-03-27 20:06:50 [51585882] info    [native] Trying to connect to Server/Collector for up to 19 seconds
+2017-03-27 20:06:50 [51585882] info    [native] Reading LoadBalancing configuration from dtserver:9998
+2017-03-27 20:06:50 [51585882] info    [native] Storing collector peer list (0 entries) to /app/dynatrace/agent/conf/collectorlist.Java_XJet
+2017-03-27 20:06:50 [51585882] info    [native] Server/Collector ............ dtserver:9998
+2017-03-27 20:06:50 [51585882] warning [native] Starting without instrumentation, agent did not match a system profile.
+2017-03-27 20:06:50 [51585882] info    [native] Instrumentation channel connected successfully
+2017-03-27 20:06:50 [51585882] info    [native] Received instrumentation blacklist (0 classes, 0 KiB)
+2017-03-27 20:06:50 [51585882] info    [native] Connected to Server/Collector dtserver:9998
+2017-03-27 20:06:50 [51585882] info    [native] Agent classes defined successfully
+2017-03-27 20:06:50 [51585882] info    [native] Platform .................... Linux 4.4.0-66-generic, amd64
+2017-03-27 20:06:50 [51585882] info    [java  ] Java Agent Version .......... 6.5.0.1289, Agent15
+2017-03-27 20:06:50 [29bee882] info    [native] Control channel connected successfully
+2017-03-27 20:06:50 [29bee882] info    [native] Transaction sampling started.
+2017-03-27 20:06:50 [29bee882] info    [native] Process metrics pattern ..... not set
+2017-03-27 20:06:50 [29bee882] warning [native] Controller: received disable instrumentation command from collector (reason=12)
+2017-03-27 20:06:50 [29bee882] warning [native] Instrumentation already disabled (state 2), ignoring request to change it
+2017-03-27 20:06:50 [29bee882] info    [native] Agent ID .................... ad826fb9
+2017-03-27 20:06:50 [29bee882] info    [native] Process ID .................. 1
+2017-03-27 20:06:50 [29bee882] info    [native] Capture ..................... disabled
+2017-03-27 20:06:50 [29bee882] info    [native] Capture CPU times ........... disabled
+2017-03-27 20:06:50 [29bee882] info    [native] Hot Sensor Placement ........ not available
+2017-03-27 20:06:50 [29bee882] info    [native] Hypervisor .................. unknown
+2017-03-27 20:06:50 [51585882] info    [native] Eventsender channel connected successfully
+2017-03-27 20:06:50 [51585882] info    [native] Shutting down Controller
+2017-03-27 20:06:50 [51585882] info    [native] Shutting down EventSender
+2017-03-27 20:06:50 [e67fb881] warning [native] Agent not instrumented properly, license cannot be verified
+2017-03-27 20:06:50 [51585882] info    [native] Shutting down Instrumentor
+2017-03-27 20:06:50 [51585882] info    [native] Shutdown successful

@@ -1,0 +1,69 @@
+2017-03-24 18:52:26 [b1a328ef] info    [native] Loading collector peer list from /app/dynatrace/agent/conf/collectorlist.Java_TodoList
+2017-03-24 18:52:26 [b1a328ef] info    [native] 0 entries loaded
+2017-03-24 18:52:26 [b1a328ef] info    [native] POSIX clock type CLOCK_MONOTONIC detected
+2017-03-24 18:52:27 [b1a328ef] info    [native] High-resolution POSIX timer detected.
+2017-03-24 18:52:27 [b1a328ef] info    [native] ------------------------------------------------------------------------------------
+2017-03-24 18:52:27 [b1a328ef] info    [native] Dynatrace Agent for Java Copyright (C) 2004-2016 Dynatrace, http://www.dynatrace.com
+2017-03-24 18:52:27 [b1a328ef] info    [native] ------------------------------------------------------------------------------------
+2017-03-24 18:52:27 [b1a328ef] info    [native] Version ..................... 6.5.0.1289, build date Sep 16 2016 08:47:21, svn rev. 654174
+2017-03-24 18:52:27 [b1a328ef] info    [native] Command line is java -agentpath:/app/dynatrace/agent/lib64/libdtagent.so=name=Java_TodoList,server=dtserver.todolist_default:9998 -Djava.security.egd=file:/dev/./urandom -jar /app/build/libs/todolistapp-1.0-SNAPSHOT.jar 
+2017-03-24 18:52:27 [b1a328ef] info    [native] Build platform .............. Linux x86 64-bit
+2017-03-24 18:52:27 [b1a328ef] info    [native] Platform .................... Linux 4.4.0-66-generic x86_64
+2017-03-24 18:52:27 [b1a328ef] info    [native] System startup time ......... unknown
+2017-03-24 18:52:27 [b1a328ef] info    [native] User name ................... root
+2017-03-24 18:52:27 [b1a328ef] info    [native] Bootstrap version ........... 6.5.0.1289
+2017-03-24 18:52:27 [b1a328ef] info    [native] Log level console ........... info
+2017-03-24 18:52:27 [b1a328ef] info    [native] Log level file .............. info
+2017-03-24 18:52:27 [b1a328ef] info    [native] Log file .................... /app/dynatrace/log/dt_Java_TodoList_1(3).0.log
+2017-03-24 18:52:27 [b1a328ef] info    [native] Agent host .................. a5f8b728fae3
+2017-03-24 18:52:27 [b1a328ef] info    [native] Agent library ............... /app/dynatrace/agent/downloads/6.5.0.1289/native/linux-x86-64/libdtagentcore.so
+2017-03-24 18:52:27 [b1a328ef] info    [native] Options string .............. name=Java_TodoList,server=dtserver.todolist_default:9998
+2017-03-24 18:52:27 [b1a328ef] info    [native] Agent name .................. Java_TodoList
+2017-03-24 18:52:27 [b1a328ef] info    [native] Server/Collector ............ dtserver.todolist_default:9998
+2017-03-24 18:52:27 [b1a328ef] info    [native] Interface type .............. JVMTI
+2017-03-24 18:52:27 [b1a328ef] info    [native] Process ID .................. 1
+2017-03-24 18:52:27 [b1a328ef] info    [native] JVM name .................... Java HotSpot(TM) 64-Bit Server VM 25.121-b13
+2017-03-24 18:52:27 [b1a328ef] info    [native] JVM vendor .................. Oracle Corporation
+2017-03-24 18:52:27 [b1a328ef] info    [native] JVM info .................... mixed mode, sharing
+2017-03-24 18:52:27 [b1a328ef] info    [native] Trying to connect to Server/Collector for up to 19 seconds
+2017-03-24 18:52:27 [b1a328ef] info    [native] Reading LoadBalancing configuration from dtserver.todolist_default:9998
+2017-03-24 18:52:27 [b1a328ef] info    [native] Storing collector peer list (0 entries) to /app/dynatrace/agent/conf/collectorlist.Java_TodoList
+2017-03-24 18:52:27 [b1a328ef] info    [native] Server/Collector ............ dtserver.todolist_default:9998
+2017-03-24 18:52:27 [b1a328ef] info    [native] Instrumentation channel connected successfully
+2017-03-24 18:52:27 [b1a328ef] info    [native] Received instrumentation blacklist (6988 classes, 495 KiB)
+2017-03-24 18:52:27 [b1a328ef] info    [native] Connected to Server/Collector dtserver.todolist_default:9998
+2017-03-24 18:52:27 [b1a328ef] info    [native] Agent classes defined successfully
+2017-03-24 18:52:27 [b1a328ef] info    [native] Platform .................... Linux 4.4.0-66-generic, amd64
+2017-03-24 18:52:27 [b1a328ef] info    [java  ] Java Agent Version .......... 6.5.0.1289, Agent15
+2017-03-24 18:52:27 [91fea8ef] info    [native] Control channel connected successfully
+2017-03-24 18:52:27 [91fea8ef] info    [native] Transaction sampling started.
+2017-03-24 18:52:28 [91fea8ef] info    [native] Process metrics pattern ..... not set
+2017-03-24 18:52:28 [91fea8ef] info    [native] Agent ID .................... 401ed744
+2017-03-24 18:52:28 [91fea8ef] info    [native] Process ID .................. 1
+2017-03-24 18:52:28 [91fea8ef] info    [native] Recovery .................... enabled
+2017-03-24 18:52:28 [91fea8ef] info    [native] Hot Sensor Placement ........ available
+2017-03-24 18:52:28 [91fea8ef] info    [native] Hypervisor .................. unknown
+2017-03-24 18:52:28 [b1a328ef] info    [native] Eventsender channel connected successfully
+2017-03-24 18:52:28 [b1a328ef] info    [native] Average transformation time for 1333 classes/modules was 0ms - maximum set to 60ms
+2017-03-24 18:52:34 [91fea8ef] info    [native] License = remote agents not supported; 
+2017-03-24 18:53:34 [91fea8ef] info    [native] License = license invalid; 
+2017-03-24 18:54:24 [91fea8ef] info    [native] License = license ok; 
+2017-03-24 18:54:44 [91fea8ef] severe  [native] Exception in controller: receiveExact() ... not connected, 70014, End of file found. Retrying every 10 seconds.
+2017-03-24 18:54:47 [938ff8ef] warning [native] Instrumentation channel disconnected: server did not reply to ping request
+2017-03-24 18:55:38 [467fb8ef] warning [native] Could not instrument class because instrumentor channel is not connected. Instrumentation might not be complete.
+2017-03-24 18:56:10 [938ff8ef] info    [native] Instrumentation channel connected successfully
+2017-03-24 18:56:10 [938ff8ef] info    [native] Connected to Server/Collector dtserver.todolist_default:9998
+2017-03-24 18:56:10 [47ff88ef] info    [native] Eventsender channel connected successfully
+2017-03-24 18:56:10 [91fea8ef] info    [native] Control channel connected successfully
+2017-03-24 18:56:10 [91fea8ef] info    [native] Global Sensortype Entrypoint list (WhiteList) changed.
+2017-03-24 18:56:10 [91fea8ef] info    [native] Process metrics pattern ..... not set
+2017-03-24 18:56:10 [91fea8ef] info    [native] Agent ID .................... 401ed744
+2017-03-24 18:56:10 [91fea8ef] info    [native] Process ID .................. 1
+2017-03-24 18:56:10 [91fea8ef] info    [native] Recovery .................... enabled
+2017-03-24 18:56:10 [91fea8ef] info    [native] Hot Sensor Placement ........ available
+2017-03-24 18:56:10 [927e98ef] info    [native] Sampling Cache (0 methods) cleared ...
+2017-03-24 18:56:15 [91fea8ef] info    [native] License = license ok; 
+2017-03-27 19:43:42 [901ad8ef] info    [native] Shutting down Controller
+2017-03-27 19:43:42 [901ad8ef] info    [native] Shutting down EventSender
+2017-03-27 19:43:42 [901ad8ef] info    [native] Shutting down Instrumentor
+2017-03-27 19:43:43 [901ad8ef] info    [native] Shutdown successful

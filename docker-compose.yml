@@ -1,0 +1,13 @@
+version: '2'
+services:
+
+  aguabsb:
+      build: ./aguabsb
+      depends_on:
+        - db
+      image: xjet:latest
+      volumes:
+        - "./aguabsb:/app/"
+      ports:
+        - "80:8080"
+      restart: always

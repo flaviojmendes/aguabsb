@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>XJet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+
+<body ng-app="xjet">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>XJet</h1>
+        </div>
+    </div>
+
+
+    <div ng-controller="home" ng-cloak class="ng-cloak">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Were found {{flights.length}} flights.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12  text-right">
+                <!--<button type="button" class="btn btn-primary btn-sm">+ CrazyJet Flight</button>-->
+            </div>
+        </div>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Airline</th>
+                    <th>Supplier</th>
+                    <th>Fare</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Departure</th>
+                    <th>Arrival</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="flight in flights">
+
+                <tr>
+                    <td>{{flight.airline}}</td>
+                    <td>{{flight.supplier}}</td>
+                    <td>{{flight.fare}}</td>
+                    <td>{{flight.departureAirportCode}}</td>
+                    <td>{{flight.destinationAirportCode}}</td>
+                    <td>{{flight.departureDate}}</td>
+                    <td>{{flight.arrivalDate}}</td>
+                </tr>
+
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="js/xjet.js"></script>
+</body>
+</html>

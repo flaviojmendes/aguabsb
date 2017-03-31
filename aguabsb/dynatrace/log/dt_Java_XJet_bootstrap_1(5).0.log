@@ -1,0 +1,14 @@
+2017-03-27 19:53:46 [5d07a87c] info    [native] Loading collector peer list from /app/dynatrace/agent/conf/collectorlist.Java_XJet
+2017-03-27 19:53:46 [5d07a87c] info    [native] 0 entries loaded
+2017-03-27 19:53:46 [5d07a87c] info    [native] Dynatrace Bootstrap Agent 6.5.0.1289
+2017-03-27 19:53:46 [5d07a87c] info    [native] Using /app/dynatrace as Agent storage
+2017-03-27 19:53:46 [5d07a87c] info    [native] Log file is /app/dynatrace/log/dt_Java_XJet_bootstrap_1(5).0.log
+2017-03-27 19:53:46 [5d07a87c] info    [native] Trying to connect to Collector for up to 20 seconds
+2017-03-27 19:54:06 [5d07a87c] info    [native] Error connecting: connect()/apr_sockaddr_info_get(), 670003, Temporary failure in name resolution
+2017-03-27 19:54:06 [5d07a87c] severe  [native] Unable to connect to Server/Collector. Last error was: Temporary failure in name resolution (670003)
+2017-03-27 19:54:06 [5d07a87c] warning [native] Unable to register with Server/Collector dtserver.xjet_default:9998
+2017-03-27 19:54:06 [5d07a87c] info    [native] Checking availability of binary of last used version of agent Java_XJet (linux-x86-64/libdtagentcore.so)
+2017-03-27 19:54:06 [5d07a87c] info    [native] Look for persisted version of agent Java_XJet (linux-x86-64/libdtagentcore.so) in file '/app/dynatrace/agent/conf/agentversion.Java_XJet'
+2017-03-27 19:54:06 [5d07a87c] info    [native] Found persisted agent version 6.5.0.1289 for Java_XJet (linux-x86-64/libdtagentcore.so)
+2017-03-27 19:54:06 [5d07a87c] info    [native] Loading Agent /app/dynatrace/agent/downloads/6.5.0.1289/native/linux-x86-64/libdtagentcore.so
+2017-03-27 19:54:06 [5d07a87c] info    [native] Persisting current loaded version 6.5.0.1289 of agent Java_XJet (linux-x86-64/libdtagentcore.so) to file '/app/dynatrace/agent/conf/agentversion.Java_XJet'

@@ -1,0 +1,12 @@
+2017-03-28 17:00:05 [058d987e] info    [native] Loading collector peer list from /app/dynatrace/agent/conf/collectorlist.JavaApplication_Java_XJet
+2017-03-28 17:00:05 [058d987e] info    [native] 0 entries loaded
+2017-03-28 17:00:05 [058d987e] info    [native] Dynatrace Bootstrap Agent 6.5.0.1289
+2017-03-28 17:00:05 [058d987e] info    [native] Using /app/dynatrace as Agent storage
+2017-03-28 17:00:05 [058d987e] info    [native] Log file is /app/dynatrace/log/dt_JavaApplication_Java_XJet_bootstrap_1(7).0.log
+2017-03-28 17:00:05 [058d987e] info    [native] Trying to connect to Collector for up to 20 seconds
+2017-03-28 17:00:05 [058d987e] info    [native] Connected to Collector dtserver.dojoapm_default:9998
+2017-03-28 17:00:05 [058d987e] info    [native] Handshake with Collector (6.5.0.1289) successful
+2017-03-28 17:00:05 [058d987e] info    [native] Collector requests to use agent version 6.5.0.1289 (hash: df8302e6b2545e2d51bfd530c51a28d0)
+2017-03-28 17:00:05 [058d987e] info    [native] Checking availability of requested agent binary linux-x86-64/libdtagentcore.so with version 6.5.0.1289
+2017-03-28 17:00:05 [058d987e] info    [native] Loading Agent /app/dynatrace/agent/downloads/6.5.0.1289/native/linux-x86-64/libdtagentcore.so
+2017-03-28 17:00:05 [058d987e] info    [native] Persisting current loaded version 6.5.0.1289 of agent JavaApplication_Java_XJet (linux-x86-64/libdtagentcore.so) to file '/app/dynatrace/agent/conf/agentversion.JavaApplication_Java_XJet'
