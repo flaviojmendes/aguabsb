@@ -7,7 +7,7 @@ public class Volume {
 
 
     private String data;
-    private String dataHora;
+    private String hora;
     private Double volumeDescoberto;
     private Double volumeStaMaria;
 
@@ -20,12 +20,12 @@ public class Volume {
         return this;
     }
 
-    public String getDataHora() {
-        return dataHora;
+    public String getHora() {
+        return hora;
     }
 
-    public Volume setDataHora(String dataHora) {
-        this.dataHora = dataHora;
+    public Volume setHora(String hora) {
+        this.hora = hora;
         return this;
     }
 
