@@ -7,5 +7,5 @@ services:
       volumes:
         - "./aguabsb:/app/"
       ports:
-        - "80:80"
+        - "80:8081"
       restart: always
