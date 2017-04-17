@@ -1,6 +1,7 @@
 package es.flaviojmend.aguabsb;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -9,6 +10,7 @@ import org.springframework.context.annotation.PropertySource;
 @EnableAutoConfiguration
 @PropertySource(Constants.Properties)
 @Configuration
+@EnableCaching
 public class AppConfiguration {
 
 

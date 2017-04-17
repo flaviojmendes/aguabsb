@@ -4,6 +4,7 @@ import es.flaviojmend.aguabsb.persistence.entity.Volume;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -13,11 +14,9 @@ import java.util.List;
 @Service
 public class AguaService {
 
-//    @Autowired
-//    CrazyAirRepository repository;
 
-
-    public List<Volume> getVolumes() throws IOException {
+    @Cacheable("volume")
+    public List<Volume> getVolumes(String cacheKey) throws IOException {
         Document doc = Jsoup.connect("http://www.adasa.df.gov.br/monitoramento/niveis-dos-reservatorios").get();
         Elements document = doc.select("div[itemprop$=articleBody]");
 
@@ -36,7 +35,6 @@ public class AguaService {
             volumes.add(volume);
 
         }
-
 
         return volumes;
     }

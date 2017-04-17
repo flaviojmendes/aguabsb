@@ -37,6 +37,8 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile  group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.2.RELEASE'
     compile  group: 'org.springframework.boot', name: 'spring-boot-starter-jetty', version: '1.5.2.RELEASE'
+    compile("org.springframework.boot:spring-boot-starter-cache:1.5.2.RELEASE")
+
     testCompile  group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.4.3.RELEASE'
     compile group: 'org.jsoup', name: 'jsoup', version: '1.10.2'
     // https://mvnrepository.com/artifact/commons-logging/commons-logging
