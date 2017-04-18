@@ -28,9 +28,9 @@ public class AguaController {
         Calendar today = Calendar.getInstance();
 
         String cacheKey = today.get(Calendar.YEAR)
-                + today.get(Calendar.MONTH)
-                + today.get(Calendar.DAY_OF_MONTH)
-                + today.get(Calendar.HOUR) +"";
+                + "" + today.get(Calendar.MONTH)
+                + "" + today.get(Calendar.DAY_OF_MONTH)
+                + "" + today.get(Calendar.HOUR_OF_DAY) +"";
 
         try {
             return new ResponseEntity<>(aguaService.getVolumes(cacheKey), HttpStatus.OK );
