@@ -15,10 +15,9 @@ import java.util.List;
 public class AguaService {
 
 
-    @Cacheable("volume")
+    @Cacheable(value = "volume", key = "#cacheKey")
     public List<Volume> getVolumes(String cacheKey) throws IOException {
         Document doc = Jsoup.connect("http://www.adasa.df.gov.br/monitoramento/niveis-dos-reservatorios").get();
-        Elements document = doc.select("div[itemprop$=articleBody]");
 
         Elements volDescoberto = doc.select("body > main > section > div.container > div.col-lg-10 > div > div:nth-child(1) > div > div:nth-child(2) > span > table > tbody > tr:nth-child(2) > td:nth-child(2) > div");
         Elements volStaMaria = doc.select("body > main > section > div.container > div.col-lg-10 > div > div:nth-child(1) > div > div:nth-child(2) > span > table > tbody > tr:nth-child(2) > td:nth-child(4) > div");
